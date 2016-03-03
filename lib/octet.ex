@@ -13,6 +13,7 @@ defmodule Octet do
       iex> Octet.string_to_bin("ffddaa")
       <<255, 221, 170>>
   """
+  @spec string_to_bin(string) :: binary
   def string_to_bin(string) do
     do_string_to_bin(string, <<>>)
   end
@@ -27,6 +28,7 @@ defmodule Octet do
       iex> Octet.bin_to_string(<<255, 221, 170>>)
       "ffddaa"
   """
+  @spec bin_to_string(binary) :: string
   def bin_to_string(bin) do
     do_bin_to_string(bin, "")
   end
