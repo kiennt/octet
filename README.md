@@ -1,6 +1,6 @@
 # Octet
 
-**TODO: Add description**
+Octet string converter
 
 ## Installation
 
@@ -17,4 +17,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:octet]]
         end
-
