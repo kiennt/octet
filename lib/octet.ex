@@ -1,5 +1,7 @@
 defmodule Octet do
-  @moduledoc false
+  @moduledoc """
+  Elixir converter to convert octet string to string and vise versa
+  """
 
   @doc """
   Convert octet string to binary

@@ -27,7 +27,9 @@ defmodule Octet.Mixfile do
 
   defp deps do
     [
-      {:benchfella, "~> 0.3.0", only: :dev}
+      {:benchfella, "~> 0.3.0", only: [:dev]},
+      {:ex_doc, only: [:dev]},
+      {:markdown, github: "devinus/markdown", only: [:dev]}
     ]
   end
 end
